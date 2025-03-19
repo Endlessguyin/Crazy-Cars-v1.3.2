@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="https://geometrylearningv3.neocities.org">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Geometry Learn V3">
+  <meta property="og:description" content="Geometry Learn V3 Offers You Games To Play! Play Today With Over 150+ Games!">
+  <meta property="og:image" content="/Assets/Images/Favicon.png">
+  <title>Geometry Learn V3 - 404</title>
+  <link rel="stylesheet" href="/newly-added-games.css">
+  <link rel="stylesheet" href="/g/styles.css">
+  <link rel="icon" href="/Assets/Images/Favicon.png" type="image/x-icon">
+  <style>
+
+    .error-title {
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .error-subtext {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .error-button {
+      display: block;
+      margin: 30px auto;
+      padding: 15px 30px;
+      background-color: #222;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .error-button:hover {
+      background-color: #333;
+    }
+
+
+    .go-back-button {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px 30px;
+      background-color: #222;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .go-back-button:hover {
+      background-color: #333;
+    }
+  </style>
+  <style>
+    #particle-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <a href="/index.html" class="site-title">
+      <img src="/Assets/Images/Favicon.png" alt="Logo">
+      <span>Geometry Learn V3</span>
+    </a>
+    <nav class="menu">
+      <a href="/g/"><img src="/Assets/Images/whitegame.png" alt="Games"> Games</a>
+      <a href="/a/"><img src="/Assets/Images/whitenblocks.png" alt="Apps"> Apps</a>
+      <a href="/e/"><img src="/Assets/Images/plus.png" alt="Extras"> Extras</a>
+      <a href="/s/">
+        <img class="settings-icon" src="/Assets/Images/icons8-settings-288.png" alt="Settings" title="Settings">
+      </a>
+    </nav>
+  </div>
+
+  <div id="toggle-particles"></div>
+  
+  <canvas id="particle-canvas"></canvas>
+  
+  <div id="particles-js"></div>
+
+  <div class="content">
+    <div class="error-title">404 Not Found</div>
+    <div class="error-subtext">
+      This Page Does Not Exist! Believe This Was An Error? Report It In The Discord Server!
+    </div>
+  </div>
+
+  <!-- Go Back to Previous Page Button -->
+  <button class="go-back-button" onclick="window.history.back();">
+    Go Back to Previous Page
+  </button>
+
+  <script src="/g/particles.js"></script>
+  <script src="/LLC.js"></script>
+  <script src="/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let s = JSON.parse(localStorage.getItem('slot1'));
+      if (s) {
+        document.title = s.title || document.title;
+        if (s.favicon) {
+          let l = document.createElement('link');
+          l.rel = 'icon';
+          l.href = s.favicon;
+          document.head.appendChild(l);
+        }
+      }
+    });
+  </script>
+</body>
+</html>

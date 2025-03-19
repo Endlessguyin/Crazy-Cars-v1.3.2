@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html>
+<head>
+<script>
+window.addEventListener("load", function() {
+    if (window.top !== window.self) return; 
+
+    setTimeout(() => {
+        document.querySelectorAll("iframe").forEach(iframe => iframe.remove());
+        document.querySelectorAll("a[href^='https://']").forEach(link => link.remove()); 
+    }, 100); 
+});
+</script>
+
+    <script>
+        // Override all console methods
+        console.log = function () {};
+        console.error = function () {};
+        console.warn = function () {};
+        console.info = function () {};
+    </script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>Crazy Cars!</title>
+    <script src="poki-sdk.js"></script>
+    <script src="playcanvas-stable.min.js"></script>
+    <script src="__settings__.js"></script>
+</head>
+<body>
+    <script src="__modules__.js"></script>
+    <script src="__start__.js"></script>
+    <script src="__loading__.js"></script>
+</body>
+</html>
