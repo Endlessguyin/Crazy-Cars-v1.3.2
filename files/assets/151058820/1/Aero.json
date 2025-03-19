@@ -1,0 +1,57 @@
+{
+    "name": "Aero",
+    "colors": [
+        "fe5d02",
+        "ff700d"
+    ],
+    "anchors": [
+        {
+            "id": 0,
+            "part": {
+                "id": 30
+            }
+        },
+        {
+            "id": 1,
+            "attributes": {
+                "scale": [1,1,1]
+            },
+            "part": {
+                "id": 1024
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "scale": [1,1,1]
+            },
+            "part": {
+                "id": 1024
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "scale": [1.1,1.1,1.1]
+            },
+            "part": {
+                "id": 1024
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "scale": [1.1,1.1,1.1]
+            },
+            "part": {
+                "id": 1024
+            }
+        },
+        {
+            "id": 8,
+            "part": {
+                "id": 8016
+            }
+        }
+    ]
+}

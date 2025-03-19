@@ -1,0 +1,72 @@
+{
+    "name": "Juggernaut",
+    "colors": [
+        "6aca35",
+        "5d9d3c"
+    ],
+    "anchors": [
+        {
+            "id": 0,
+            "part": {
+                "id": 32
+            }
+        },
+        {
+            "id": 1,
+            "attributes": {
+                "scale": [0.9,0.9,1]
+            },
+            "part": {
+                "id": 1027
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "scale": [0.9,0.9,1]
+            },
+            "part": {
+                "id": 1027
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "scale": [0.9,0.9,1.1]
+            },
+            "part": {
+                "id": 1027
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "scale": [0.9,0.9,1.1]
+            },
+            "part": {
+                "id": 1027
+            }
+        },
+        {
+            "id": 5,
+            "part": {
+                "id": 5003
+            }
+        },
+        {
+            "id": 7,
+            "attributes": {
+                "scale": [1.25,1.25,1.25]
+            },
+            "part": {
+                "id": 7023
+            }
+        },
+        {
+            "id": 8,
+            "part": {
+                "id": 8012
+            }
+        }
+    ]
+}
