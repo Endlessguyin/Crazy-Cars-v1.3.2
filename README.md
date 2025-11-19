@@ -1,3 +1,3 @@
-# Please Star If You Fork this!
+# please star if you fork this
 
-If you dont want ads on the game give our <a href="https://github.com/Endlessguyin/gamedistribution-antiblock-improved" target="_blank">GDAB</a> script a shot! (blocks all ads)
+if you dont want ads on the game give the <a href="https://github.com/Endlessguyin/gamedistribution-antiblock-improved" target="_blank">GDAB</a> script a shot (blocks all ads)
